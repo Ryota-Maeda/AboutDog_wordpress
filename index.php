@@ -66,8 +66,22 @@
 
       </div>
     </section>
-  </div>
 
-  <nav></nav>
+    <aside class="contact">
+
+      <h2>Contact</h2>
+      <form>
+          <div class="form">
+            <input type="text" placeholder="お名前">
+            <input type="text" placeholder="メールアドレス">
+            <textarea placeholder="&#13;&#13;&#13;&#13;&#13;お問い合わせ内容"></textarea>
+          </div>
+
+          <p class="submit">
+              <input type="submit" value="送信">
+          </p>
+      </form>
+
+    </aside>
 
   <?php get_footer(); ?>
