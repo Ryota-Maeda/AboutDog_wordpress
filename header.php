@@ -12,7 +12,7 @@
 <body>
   <div class="container">
     <header>
-      <h1>About Dog</h1>
+      <h1 class="main-title">About Dog</h1>
       <nav>
         <ul class="header-right">
           <li>Top</li>

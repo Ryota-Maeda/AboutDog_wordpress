@@ -86,6 +86,10 @@ header {
     .header-right {
         display: none;
     }
+
+    .subtitle {
+        text-align: center;
+    }
 }
 
 
@@ -136,8 +140,31 @@ header {
     border: 0rem;
 }
 
+@media screen and (max-width: 600px) {
+    .submit input {
+        width: 150px;
+        height: 50px;
+        border-radius: .5rem;
+        background-color: #8E8E8E;
+        border: 0rem;   
+    }
+
+    .contact h2 {
+        font-size: 2rem;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+        text-align: center;
+    }
+}
+
 
 /* ここからフッター */
 footer {
     background-color: black;
+}
+
+@media screen and (max-width: 600px) {
+    .footer-left {
+        text-align: center;
+    }
 }
