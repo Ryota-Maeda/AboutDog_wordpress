@@ -90,6 +90,16 @@ header {
     .subtitle {
         text-align: center;
     }
+
+    .articles {
+        width: 500px;
+    }
+
+    .img-box{
+        width: 400px;
+        margin-top: 20px;
+        text-align: center;
+    }
 }
 
 
@@ -161,10 +171,20 @@ header {
 /* ここからフッター */
 footer {
     background-color: black;
+    height: 50px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+footer p {
+    margin-left: 10px;
 }
 
 @media screen and (max-width: 600px) {
-    .footer-left {
-        text-align: center;
+    footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }

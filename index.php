@@ -25,8 +25,7 @@
                           <img src="https://placehold.jp/150x150.png" alt="">
                       <?php endif; ?>
                   </a>
-                  <p><?php the_category(); ?></p>
-                  <p><?php the_time("Y年m月d日"); ?></p>
+                  <p><?php the_time("Y/m/d/"); ?></p>
                   <p><?php the_excerpt(); ?></p>
                   </li>
               <?php endwhile; ?>            

@@ -1,8 +1,6 @@
 <footer>
 
-    <p class="footer-left">
-        <small>&copy; 2019 ALL RIGHT RESERVED</small>
-    </p>
+    <p>&copy; 2019 ALL RIGHT RESERVED</p>
 
 </footer>
 
